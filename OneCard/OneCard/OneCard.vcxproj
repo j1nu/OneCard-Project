@@ -18,6 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bag.cpp" />
+    <ClCompile Include="Card.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bag.h" />
+    <ClInclude Include="Card.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{7CF0E611-8CBA-4713-B02D-A628047AABC4}</ProjectGuid>
@@ -114,15 +123,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Desktop\Onecard\Bag.cpp" />
-    <ClCompile Include="..\..\..\..\..\Desktop\Onecard\Card.cpp" />
-    <ClCompile Include="..\..\..\..\..\Desktop\Onecard\main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Desktop\Onecard\Bag.h" />
-    <ClInclude Include="..\..\..\..\..\Desktop\Onecard\Card.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
